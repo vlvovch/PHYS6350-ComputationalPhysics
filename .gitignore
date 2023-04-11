@@ -34,6 +34,8 @@
 # Zip files
 *.zip
 
+
+
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
@@ -61,3 +63,9 @@ docs/doxygen/*
 
 # Jupyter temporary
 .ipynb_checkpoints
+
+# Apple
+.DS_Store
+
+# Omit assignments and solutions
+assignments/*
