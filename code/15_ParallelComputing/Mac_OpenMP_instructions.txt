@@ -1,0 +1,3 @@
+brew install libomp
+
+clang++ -Xpreprocessor -std=c++11 -Xclang -fopenmp -L/opt/homebrew/opt/libomp/lib -I/opt/homebrew/opt/libomp/include -lomp parallel_sum_openmp.cpp -o parallel_sum_openmp
