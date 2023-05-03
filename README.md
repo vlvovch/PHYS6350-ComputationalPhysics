@@ -4,7 +4,7 @@ This repository contains the lecture notes and program code for the graduate cou
 
 The course is designed for graduate/advanced undergraduate physics students.
 The focus is on the concepts behind the numerical methods used in computational physics over the implementation. For this reason, most of the code is in Python and uses Jupyter Notebooks for presentation. 
-For the same reason, many standard routines (such as linear equation solvers are reimplemented).
+For the same reason, many standard routines (such as linear equation solvers) are reimplemented.
 
 
 ## Textbooks
@@ -107,7 +107,8 @@ Code ([ipynb](code/6_NumericalDerivatives/6_NumericalDerivatives.ipynb))]
     - Lecture 2 ([pdf](lectures/Lecture16-03-23-23-PartialDifferentialEquations-2.pdf), [pptx](lectures/Lecture16-03-23-23-PartialDifferentialEquations-2.pptx))
         - Initial value problems
         - FTCS, implicit, and Crank-Nicolson schemes
-        - Heat and wave equations
+        - Heat equation 
+        - Wave equation
 
 12. Random numbers and Monte Carlo methods  [Code ([ipynb](code/11_RandomNumbers/11_RandomNumbers.ipynb))]
     - Lecture 1 ([pdf](lectures/Lecture17-03-28-23-RandomNumbers.pdf))
