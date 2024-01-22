@@ -16,7 +16,7 @@ Many of the problems and examples are taken from the first book, these are refer
 
 ## Syllabus
 
-The syllabus for the course taught in Sping 2023 is available [here](Syllabus_Phys6350_Spring23.pdf)
+The syllabus for the course taught in Spring 2023 is available [here](Syllabus_Phys6350_Spring23.pdf)
 
 ## Lecture notes and code
 
