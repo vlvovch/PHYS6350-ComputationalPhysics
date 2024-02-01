@@ -1,6 +1,6 @@
 # Computational Physics course (PHYS 6350)
 
-This repository contains the lecture notes and program code for the graduate course PHYS6350 Computational Physics at the University of Houston taught at the University of Houston.
+This repository contains the lecture notes and computer code for the graduate course PHYS6350 Computational Physics taught at the University of Houston.
 
 The course is designed for graduate/advanced undergraduate physics students.
 The focus is on the concepts behind the numerical methods used in computational physics over the implementation. For this reason, most of the code is in Python and uses Jupyter Notebooks for presentation. 
