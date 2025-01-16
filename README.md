@@ -20,7 +20,7 @@ The syllabus for the Spring 2025 edition of the course is available [here](Sylla
 
 ## Lecture notes and code
 
-- Lecture slides: folder [``lectures``](slides/)
+- Lecture slides: folder [``slides``](slides/)
 - Sample programs and notebooks: folder  [``code``](code/)
 
 ## Course outline
