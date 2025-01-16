@@ -1,0 +1,71 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Zip files
+*.zip
+
+
+
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+unused*/*
+Debug*/*
+Release*/*
+local*/*
+cmake-build*/*
+
+# Visual Studio
+.vs/*
+.vscode/*
+out/*
+
+# CLion
+.idea/*
+
+# Doxygen generated
+docs/doxygen/*
+
+# Jupyter temporary
+.ipynb_checkpoints
+
+# Apple
+.DS_Store
+
+# Omit assignments and solutions
+assignments/*
