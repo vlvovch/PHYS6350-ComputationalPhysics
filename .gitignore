@@ -65,7 +65,7 @@ docs/doxygen/*
 .ipynb_checkpoints
 
 # Apple
-# .DS_Store
+.DS_Store
 
 # Omit assignments and solutions
 assignments/*
