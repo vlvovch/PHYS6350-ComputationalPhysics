@@ -25,19 +25,23 @@ The syllabus for the Spring 2025 edition of the course is available [here](Sylla
 
 ## Course outline
 
-1. Plotting
+1. Plotting [Lecture ([pdf](slides/Lecture2-01-16-25-Plotting-MachinePrecision.pdf)), 
+Code ([ipynb](code/1_Plotting/1_Plotting.ipynb))]
 
+2. Floating-point precision [Lecture ([pdf](slides/Lecture2-01-16-25-Plotting-MachinePrecision.pdf)), 
+Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
 
-2. Floating-point precision
-
-3. Function Interpolation
+3. Function Interpolation [Lecture ([pdf](lectures/Lecture3-01-23-25-Interpolation.pdf)), Code ([ipynb](code/3_Interpolation/3_Interpolation.ipynb))]
+    - Linear interpolation
+    - Polynomial Interpolation in Lagrange and Newton forms
+    - Bilinear interpolation (two variables)
 
 4. Linear Algebra and Matrices
-    - Lecture 1
+    - Lecture 1 ([pdf](lectures/Lecture4-01-28-25-LinearAlgebra.pdf), Code ([ipynb](code/4_LinearAlgebra/4_LinearAlgebra.ipynb)))
         - Gaussian elimination
         - Pivoting
         - LU-decomposition
-    - Lecture 2
+    - Lecture 2 ([pdf](lectures/Lecture5-01-30-23-LinearAlgebra-2.pdf), Code ([ipynb](code/4_LinearAlgebra/4_LinearAlgebra.ipynb)))
         - Matrix inversion
         - Tri- and band-diagonal systems
         - QR decomposition
