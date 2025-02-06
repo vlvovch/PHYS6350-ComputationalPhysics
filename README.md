@@ -31,30 +31,30 @@ Code ([ipynb](code/1_Plotting/1_Plotting.ipynb))]
 2. Floating-Point Precision [Lecture ([pdf](slides/Lecture2-01-16-25-Plotting-MachinePrecision.pdf)), 
 Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
 
-3. Function Interpolation [Lecture ([pdf](lectures/Lecture3-01-23-25-Interpolation.pdf)), Code ([ipynb](code/3_Interpolation/3_Interpolation.ipynb))]
+3. Function Interpolation [Lecture ([pdf](slides/Lecture3-01-23-25-Interpolation.pdf)), Code ([ipynb](code/3_Interpolation/3_Interpolation.ipynb))]
     - Linear interpolation
     - Polynomial Interpolation in Lagrange and Newton forms
     - Bilinear interpolation (two variables)
 
 4. Linear Algebra and Matrices
-    - Lecture 1 [[pdf](lectures/Lecture4-01-28-25-LinearAlgebra.pdf), Code ([ipynb](code/4_LinearAlgebra/4_LinearAlgebra.ipynb))]
+    - Lecture 1 [[pdf](slides/Lecture4-01-28-25-LinearAlgebra.pdf), Code ([ipynb](code/4_LinearAlgebra/4_LinearAlgebra.ipynb))]
         - Gaussian elimination
         - Pivoting
         - LU-decomposition
-    - Lecture 2 [[pdf](lectures/Lecture5-01-30-23-LinearAlgebra-2.pdf), Code ([ipynb](code/4_LinearAlgebra/4_LinearAlgebra.ipynb))]
+    - Lecture 2 [[pdf](slides/Lecture5-01-30-23-LinearAlgebra-2.pdf), Code ([ipynb](code/4_LinearAlgebra/4_LinearAlgebra.ipynb))]
         - Matrix inversion
         - Tri- and band-diagonal systems
         - QR decomposition
         - Eigenvalue problem
 
 5. Non-Linear Equations
-    - Lecture 1 [[pdf](lectures/Lecture6-02-04-23-NonlinearEquations.pdf), [pptx](lectures/Lecture6-02-04-23-NonlinearEquations.pdf) (for animations), Code ([ipynb](code/5_NonlinearEquations/5_NonlinearEquations.ipynb)), Generate Animations ([ipynb](code/5_NonlinearEquations/5_NonlinearEquations-Animation.ipynb))]
+    - Lecture 1 [[pdf](slides/Lecture6-02-04-23-NonlinearEquations.pdf), [pptx](slides/Lecture6-02-04-23-NonlinearEquations.pptx) (for animations), Code ([ipynb](code/5_NonlinearEquations/5_NonlinearEquations.ipynb)), Generate Animations ([ipynb](code/5_NonlinearEquations/5_NonlinearEquations-Animation.ipynb))]
         - Bisection method
         - Secant and Newton-Raphson method
-    - Lecture 2
-        - Roots of a polynomial
-        - Multi-dimenstional Newton and Broyden methods
-        - Search for extrema (minimum/maximum) 
+    - Lecture 2 [[pdf](slides/Lecture7-02-06-23-NonlinearEquations-2.pdf), [pptx](slides/Lecture7-02-04-23-NonlinearEquations-2.pptx) (for animations)]
+        - Roots of a polynomial (Code ([ipynb](code/5_NonlinearEquations/5b_PolynomialRoots.ipynb))
+        - Multi-dimenstional Newton and Broyden methods (Code ([ipynb](code/5_NonlinearEquations/5c_NonlinearEquationsMulti.ipynb))
+        - Search for extrema (minimum/maximum) (Code ([ipynb](code/5_NonlinearEquations/5d_SearchForExtrema.ipynb))
 
 6. Numerical integration
     - Lecture 1
@@ -89,7 +89,7 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
 9. Classical mechanics problems
     - Three-body problem
     - Non-linear pendulum
-    - Double pendulum and chaotic motion (simulation + animation code
+    - Double pendulum and chaotic motion (simulation + animation code)
 
 
 10. Molecular dynamics
