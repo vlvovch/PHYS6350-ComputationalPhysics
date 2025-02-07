@@ -69,6 +69,7 @@ docs/doxygen/*
 
 # Omit assignments and solutions
 assignments/*
+workspace/*
 
 # Omit custom files
 *_ignore.*
