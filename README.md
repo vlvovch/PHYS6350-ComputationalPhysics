@@ -16,7 +16,7 @@ Many of the problems and examples are taken from the first book, these are refer
 
 ## Syllabus
 
-The syllabus for the Spring 2025 edition of the course is available [here](Syllabus_Phys6350_2025.pdf)
+The syllabus for the Spring 2025 edition of the course is available [here](Syllabus_Phys6350_spring2025.pdf)
 
 ## Lecture notes and code
 
@@ -41,17 +41,17 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
         - Gaussian elimination
         - Pivoting
         - LU-decomposition
-    - Lecture 2 [[pdf](slides/Lecture5-01-30-23-LinearAlgebra-2.pdf), Code ([ipynb](code/4_LinearAlgebra/4_LinearAlgebra.ipynb))]
+    - Lecture 2 [[pdf](slides/Lecture5-01-30-25-LinearAlgebra-2.pdf), Code ([ipynb](code/4_LinearAlgebra/4_LinearAlgebra.ipynb))]
         - Matrix inversion
         - Tri- and band-diagonal systems
         - QR decomposition
         - Eigenvalue problem
 
 5. Non-Linear Equations
-    - Lecture 1 [[pdf](slides/Lecture6-02-04-23-NonlinearEquations.pdf), [pptx](slides/Lecture6-02-04-23-NonlinearEquations.pptx) (for animations), Code ([ipynb](code/5_NonlinearEquations/5_NonlinearEquations.ipynb)), Generate Animations ([ipynb](code/5_NonlinearEquations/5_NonlinearEquations-Animation.ipynb))]
+    - Lecture 1 [[pdf](slides/Lecture6-02-04-25-NonlinearEquations.pdf), [pptx](slides/Lecture6-02-04-25-NonlinearEquations.pptx) (for animations), Code ([ipynb](code/5_NonlinearEquations/5_NonlinearEquations.ipynb)), Generate Animations ([ipynb](code/5_NonlinearEquations/5_NonlinearEquations-Animation.ipynb))]
         - Bisection method
         - Secant and Newton-Raphson method
-    - Lecture 2 [[pdf](slides/Lecture7-02-06-23-NonlinearEquations-2.pdf), [pptx](slides/Lecture7-02-04-23-NonlinearEquations-2.pptx) (for animations)]
+    - Lecture 2 [[pdf](slides/Lecture7-02-06-25-NonlinearEquations-2.pdf), [pptx](slides/Lecture7-02-06-25-NonlinearEquations-2.pptx) (for animations)]
         - Roots of a polynomial (Code ([ipynb](code/5_NonlinearEquations/5b_PolynomialRoots.ipynb))
         - Multi-dimenstional Newton and Broyden methods (Code ([ipynb](code/5_NonlinearEquations/5c_NonlinearEquationsMulti.ipynb))
         - Search for extrema (minimum/maximum) (Code ([ipynb](code/5_NonlinearEquations/5d_SearchForExtrema.ipynb))
