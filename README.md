@@ -57,16 +57,16 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
         - Search for extrema (minimum/maximum) (Code ([ipynb](code/5_NonlinearEquations/5d_SearchForExtrema.ipynb))
 
 6. Numerical integration
-    - Lecture 1
+    - Lecture 1 [[pdf](slides/Lecture8-02-11-25-NumericalIntegration.pdf), [pptx](slides/Lecture8-02-11-25-NumericalIntegration.pptx) (for animations)]
         - Rectangle, trapezoidal, and Simpson rules
         - Composite and adaptive rules, error control
         - Improper integrals
-    - Lecture 2
+    - Lecture 2 [[pdf](slides/Lecture9-02-13-25-NumericalIntegration-2.pdf), [pptx](slides/Lecture9-02-13-25-NumericalIntegration-2.pptx)]
         - Newton-Cotes quadrature
         - Clenshaw-Curtis quadrature
         - Gaussian quadrature
 
-7. Numerical differentiation
+7. Numerical differentiation [[pdf](slides/Lecture10-02-18-25-NumericalDifferentiation.pdf)]
     - Forward, backward, and central difference
     - High-order approximations and derivatives
     - Balancing truncation and round-off errors
