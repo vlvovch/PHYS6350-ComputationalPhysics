@@ -74,25 +74,24 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
 
 
 8. Ordinary differential equations (ODE)
-    - Lecture 1
+    - Lecture 1 [[pdf](slides/Lecture11-02-20-25-OrdinaryDifferentialEquations.pdf), [pptx](slides/Lecture11-02-20-25-OrdinaryDifferentialEquations.pptx)]
         - Euler, midpoint (RK2), and RK4 methods
         - Adaptive step
         - Stiff equations, stability, and implicit methods
         - Systems of ODEs
         - Simple pendulum
-     - Lecture 2
+     - Lecture 2 [[pdf](slides/Lecture12-02-25-25-OrdinaryDifferentialEquations-2.pdf), [pptx](slides/Lecture12-02-25-25-OrdinaryDifferentialEquations-2.pptx)]
         - Leapfrog, modified midpoint and Bulirsch-Stoer methods
         - Simple pendulum
         - Comet motion, SIR model
         - Boundary value problems and the shooting method
 
-9. Classical mechanics problems
+9. Classical mechanics problems [[pdf](slides/Lecture13-02-27-25-ClassicalMechanicsProblems.pdf), [pptx](slides/Lecture13-02-27-25-ClassicalMechanicsProblems.pptx)]
     - Three-body problem
     - Non-linear pendulum
     - Double pendulum and chaotic motion (simulation + animation code)
 
-
-10. Molecular dynamics
+10. Molecular dynamics [[pdf](slides/Lecture14-03-03-25-MolecularDynamics.pdf), [pptx](slides/Lecture14-03-03-25-MolecularDynamics.pptx)]
     - Classical N-body problem
     - Lennard-Jones fluid
     - Equilibration and thermodynamics
