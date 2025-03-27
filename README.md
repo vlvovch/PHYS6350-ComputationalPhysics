@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vlvovch/PHYS6350-ComputationalPhysics/spring2025)
+
 # PHYS6350 Computational Physics (Spring 2025)
 
 This repository contains the lecture notes and computer code for the graduate course PHYS6350 Computational Physics taught at the University of Houston taught in Spring 2025.
