@@ -1,7 +1,8 @@
 name: CompPhys
 channels:
   - conda-forge
-  # - defaults
+  - defaults
+  - conda-forge/label/broken
 dependencies:
   - aiohappyeyeballs=2.4.4=py310hca03da5_0
   - aiohttp=3.11.10=py310h80987f9_0
