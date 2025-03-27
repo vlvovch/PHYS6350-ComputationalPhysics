@@ -209,4 +209,3 @@ dependencies:
   - pip:
       - ipympl==0.9.7
       - mygrad==2.3.0
-prefix: /opt/anaconda3/envs/CompPhys
