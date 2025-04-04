@@ -100,18 +100,18 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
 
 
 11. Partial differential equations (PDE)
-    - Lecture 1
+    - Lecture 1 [[pdf](slides/Lecture15-03-18-25-PartialDifferentialEquations.pdf), [pptx](slides/Lecture15-03-18-25-PartialDifferentialEquations.pptx)]
         - Boundary value problems
         - Finite difference method
         - Jacobi and Gauss-Seidel methods
-    - Lecture 2
+    - Lecture 2 [[pdf](slides/Lecture16-03-20-25-PartialDifferentialEquations-2.pdf), [pptx](slides/Lecture16-03-20-25-PartialDifferentialEquations-2.pptx)]
         - Initial value problems
         - FTCS, implicit, and Crank-Nicolson schemes
         - Heat equation 
         - Wave equation
 
 12. Random numbers and Monte Carlo methods
-    - Lecture 1
+    - Lecture 1 [[pdf](slides/Lecture17-03-27-25-RandomNumbers.pdf), [pptx](slides/Lecture17-03-27-25-RandomNumbers.pptx)]
         - Pseudo-random number generators
         - Computing integrals
             - As the area under the curve
@@ -119,16 +119,16 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
         - Sampling non-uniformly distributed random numbers
             - Inverse transform sampling
             - Rejection sampling
-    - Lecture 2
+    - Lecture 2 [[pdf](slides/Lecture18-04-01-25-RandomNumbers-2.pdf), [pptx](slides/Lecture18-04-01-25-RandomNumbers-2.pptx)]
         - Multi-dimensional integrals
         - Importance sampling
 
 13. Statistical physics problems
-    - Lecture 1
+    - Lecture 1 [[pdf](slides/Lecture19-04-03-25-StatisticalPhysics.pdf), [pptx](slides/Lecture19-04-03-25-StatisticalPhysics.pptx)]
         - Markov Chain Monte Carlo (MCMC)
         - Metropolis-Hastings algorithm
         - Simulation of the 2D Ising model
-    - Lecture 2
+    - Lecture 2 [[pdf](slides/Lecture20-04-06-25-StatisticalPhysics-2.pdf), [pptx](slides/Lecture20-04-06-25-StatisticalPhysics-2.pptx)]
         - Simulated annealing
         - Percolation threshold simulation
 
@@ -149,9 +149,3 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
     - Basic terminology
     - OpenMP examples
     - Molecular dynamics with NVIDIA CUDA ([cpp](https://github.com/vlvovch/lennard-jones-cuda))
-
-## Usage
-
-Feel free to use and redistribute the material with an appropriate reference.
-
-*Copyright (C) 2023-2025 Volodymyr Vovchenko*
