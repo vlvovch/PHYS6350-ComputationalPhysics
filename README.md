@@ -135,17 +135,8 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
 14. Quantum mechanics
     - Matrix method for eigenenergies and eigenstates
     - Time-dependent Schroedinger equation
+    - Variational method
+    [[pdf](slides/Lecture21-04-17-25-QuantumMechanics.pdf), [pptx](slides/Lecture21-04-17-25-QuantumMechanics.pptx)]
 
-15. Data Analysis and Curve Fitting, Parameter Estimation
-    - Data and Uncertainties
-    - chi2 minimization
-    - Maximum likelihood
-    - Bayesian analysis
-
-16. Introduction to Machine Learning (tentative)
-
-
-17. Introduction to Parallel Computing (tentative)
-    - Basic terminology
-    - OpenMP examples
-    - Molecular dynamics with NVIDIA CUDA ([cpp](https://github.com/vlvovch/lennard-jones-cuda))
+15. Introduction to Machine Learning
+    [[pdf](slides/SpecialLecture-04-10-25-MLIntro.pdf), [pptx](slides/SpecialLecture-04-10-25-MLIntro.pptx)]
