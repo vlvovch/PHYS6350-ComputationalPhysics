@@ -81,4 +81,4 @@ workspace/*
 # Anaconda
 .conda
 .env
-anaconda_projects/
+anaconda_projects/*
