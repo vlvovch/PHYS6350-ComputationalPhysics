@@ -77,3 +77,8 @@ workspace/*
 
 # Omit custom files
 *_ignore.*
+
+# Anaconda
+.conda
+.env
+anaconda_projects/
