@@ -82,3 +82,12 @@ workspace/*
 .conda
 .env
 anaconda_projects/*
+
+# Jupyter Book
+book/_build/
+book/_build/*
+book/*/*.pyc
+
+# pycache
+__pycache__
+__pycache__/*

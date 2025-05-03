@@ -1,0 +1,63 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: 1
+chapters:
+- file: 1_Plotting/1_Plotting.ipynb
+- file: 2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb
+- file: 3_Interpolation/3_Interpolation.ipynb
+- file: 4_LinearAlgebra/4_LinearAlgebra.ipynb
+- file: 5_NonlinearEquations/5_NonlinearEquationsAll.ipynb
+  sections:
+    - file: 5_NonlinearEquations/5_NonlinearEquations.ipynb
+    - file: 5_NonlinearEquations/5b_PolynomialRoots.ipynb
+    - file: 5_NonlinearEquations/5c_NonlinearEquationsMulti.ipynb
+    - file: 5_NonlinearEquations/5d_SearchForExtrema.ipynb
+- file: 6_NumericalIntegration/6_NumericalIntegrationAll.ipynb
+  sections:
+    - file: 6_NumericalIntegration/6a_NumericalIntegration_Basics.ipynb
+    - file: 6_NumericalIntegration/6b_NumericalIntegration_Adaptive.ipynb
+    - file: 6_NumericalIntegration/6c_NumericalIntegration_ImproperIntegrals.ipynb
+    - file: 6_NumericalIntegration/6d_NumericalIntegration_HighOrder.ipynb
+- file: 7_NumericalDerivatives/7_NumericalDerivativesAll.ipynb
+  sections:
+    - file: 7_NumericalDerivatives/7_NumericalDerivatives_FD.ipynb
+    - file: 7_NumericalDerivatives/7_NumericalDerivatives_AD.ipynb
+- file: 8_OrdinaryDifferentialEquations/8_ODEall.ipynb
+  sections:
+    - file: 8_OrdinaryDifferentialEquations/8_ODE_basics.ipynb
+    - file: 8_OrdinaryDifferentialEquations/8_ODE_systems.ipynb
+    - file: 8_OrdinaryDifferentialEquations/8_ODE_timereversal.ipynb
+    - file: 8_OrdinaryDifferentialEquations/8_ODE_shooting.ipynb
+- file: 9_ClassicalMechanics/9_ClassicalMechanicsAll.ipynb
+  sections:
+    - file: 9_ClassicalMechanics/9a_ClassicalMechanics.ipynb
+    - file: 9_ClassicalMechanics/9b_MolecularDynamics.ipynb
+    # - file: 8_OrdinaryDifferentialEquations/8b_ClassicalMechanics.ipynb
+- file: 10_PDE/10_PDEall.ipynb
+  sections:
+    - file: 10_PDE/10_PDE_BVP.ipynb
+    - file: 10_PDE/10_PDE_IVP.ipynb
+    - file: 10_PDE/10_PDE_IVP_wave.ipynb
+- file: 11_RandomNumbers/11_RandomNumbersAll.ipynb
+  sections:
+    - file: 11_RandomNumbers/11_RandomNumbers_Basics.ipynb
+    - file: 11_RandomNumbers/11_RandomNumbers_Integrals.ipynb
+    - file: 11_RandomNumbers/11_RandomNumbers_NonUniform.ipynb
+- file: 12_StatisticalPhysics/12_StatisticalPhysicsAll.ipynb
+  sections:
+    - file: 12_StatisticalPhysics/12_StatisticalPhysics_Metropolis.ipynb
+    - file: 12_StatisticalPhysics/12_StatisticalPhysics_Ising.ipynb
+    - file: 12_StatisticalPhysics/12_StatisticalPhysics_Annealing.ipynb
+    - file: 12_StatisticalPhysics/12_StatisticalPhysics_Percolation.ipynb
+- file: 13_QuantumMechanics/13_QuantumMechanicsAll.ipynb
+  sections:
+    - file: 13_QuantumMechanics/13_QM_Matrix.ipynb
+    - file: 13_QuantumMechanics/13_QM_TimeDep.ipynb
+    - file: 13_QuantumMechanics/13_QM_VMC.ipynb
+# - file: markdown
+# - file: notebooks
+# - file: markdown-notebooks
