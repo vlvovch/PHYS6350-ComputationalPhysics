@@ -34,7 +34,11 @@
 # Zip files
 *.zip
 
+# Tmp files
+~*
 
+# Recordings
+recordings/*
 
 CMakeCache.txt
 CMakeFiles
@@ -69,3 +73,21 @@ docs/doxygen/*
 
 # Omit assignments and solutions
 assignments/*
+workspace/*
+
+# Omit custom files
+*_ignore.*
+
+# Anaconda
+.conda
+.env
+anaconda_projects/*
+
+# Jupyter Book
+book/_build/
+book/_build/*
+book/*/*.pyc
+
+# pycache
+__pycache__
+__pycache__/*
