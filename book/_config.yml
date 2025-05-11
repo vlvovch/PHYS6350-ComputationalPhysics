@@ -51,10 +51,12 @@ html:
   extra_footer              : ""  # Will be displayed underneath the footer.
   home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
+  extra_files               : ["_static"]  # Extra files to be copied to the build directory
   analytics:
-    plausible_analytics_domain: ""
-    plausible_analytics_url: "https://plausible.io/js/script.js"
-    google_analytics_id       : ""  # A GA id that can be used to track book views.
+    plausible_analytics_domain : ""
+    plausible_analytics_url    : ""
+    google_analytics_id        : "UA-61731056-6"  # A GA id that can be used to track book views.
+
 
   comments:
     hypothesis              : false
@@ -75,17 +77,17 @@ latex:
 # Launch button settings
 launch_buttons:
   notebook_interface        : classic  # The interface interactive links will activate ["classic", "jupyterlab"]
-  binderhub_url             : ""  # The URL of the BinderHub (e.g., https://mybinder.org)
+  binderhub_url             : "https://mybinder.org"  # The URL of the BinderHub (e.g., https://mybinder.org)
   jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
   thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
-  colab_url                 : "" # The URL of Google Colab (https://colab.research.google.com)
+  colab_url                 : "https://colab.research.google.com" # The URL of Google Colab (https://colab.research.google.com)
   deepnote_url              : "" # The URL of Deepnote (https://deepnote.com)
 
 # Information about where the book exists on the web
 repository:
   url: https://github.com/vlvovch/PHYS6350-ComputationalPhysics  # Online location of your book
   path_to_book: book  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  branch: jupyter-book  # Which branch of the repository should be used when creating links (optional)
 
 # # Add GitHub buttons to your book
 # # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository

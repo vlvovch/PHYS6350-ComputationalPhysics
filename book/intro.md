@@ -1,6 +1,6 @@
 # Introduction
 
-This material is based on the graduate course <a href="https://publications.uh.edu/preview_course_nopop.php?catoid=33&amp;coid=158842">PHYS6350 Computational Physics</a> that I taught at the <span style="color:red;">University of Houston</span> in Spring 2023 and Spring 2025.
+This material is based on the graduate course <a href="https://publications.uh.edu/preview_course_nopop.php?catoid=33&amp;coid=158842">PHYS6350 Computational Physics</a> that I taught at the <span style="color:red;">University of Houston</span> in Spring 2023 and Spring 2025
 
 The course presents the basic concepts of computational physics and numerical methods, their examples, and applications to physics problems. 
 The course is designed for graduate/advanced undergraduate physics students.

@@ -26,6 +26,7 @@ chapters:
   sections:
     - file: 7_NumericalDerivatives/7_NumericalDerivatives_FD.ipynb
     - file: 7_NumericalDerivatives/7_NumericalDerivatives_AD.ipynb
+    - file: 7_NumericalDerivatives/7_ND_Susceptibility_GaussLaguerre.ipynb
 - file: 8_OrdinaryDifferentialEquations/8_ODEall.ipynb
   sections:
     - file: 8_OrdinaryDifferentialEquations/8_ODE_basics.ipynb
@@ -58,6 +59,4 @@ chapters:
     - file: 13_QuantumMechanics/13_QM_Matrix.ipynb
     - file: 13_QuantumMechanics/13_QM_TimeDep.ipynb
     - file: 13_QuantumMechanics/13_QM_VMC.ipynb
-# - file: markdown
-# - file: notebooks
-# - file: markdown-notebooks
+- file: 14_FFT/14_FFT.ipynb
