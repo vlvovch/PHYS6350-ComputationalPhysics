@@ -48,7 +48,17 @@ html:
   use_repository_button     : true  # Whether to add a link to your repository button
   use_issues_button         : false  # Whether to add an "open an issue" button
   use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
-  extra_footer              : ""  # Will be displayed underneath the footer.
+  extra_footer              :  |
+    <p>
+    <b>Creative Commons Attribution 4.0 International</b>
+    <br>
+    This work is licensed under the Creative Commons Attribution 4.0 International License.  
+    <br>
+    To view a copy of this license, visit  
+    <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>  
+    or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+    </p>    
+  # Will be displayed underneath the footer.
   home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   extra_files               : ["_static"]  # Extra files to be copied to the build directory
