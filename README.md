@@ -35,9 +35,9 @@ The syllabus for the course is available for [Spring 2023](syllabus/Syllabus_Phy
 
 ## Course outline
 
-1. Plotting [Lecture ([pdf](slides/Lecture1-Plotting.pdf)), Code ([ipynb](code/1_Plotting/1_Plotting.ipynb))]
+1. Plotting [Lecture ([pdf](slides/Lecture2-Plotting-MachinePrecision.pdf)), Code ([ipynb](code/1_Plotting/1_Plotting.ipynb))]
 
-2. Floating-Point Precision [Lecture ([pdf](slides/Lecture2-MachinePrecision.pdf)), 
+2. Floating-Point Precision [Lecture ([pdf](slides/Lecture2-Plotting-MachinePrecision.pdf)), 
 Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
 
 3. Function Interpolation [Lecture ([pdf](slides/Lecture3-Interpolation.pdf)), Code ([ipynb](code/3_Interpolation/3_Interpolation.ipynb))]
