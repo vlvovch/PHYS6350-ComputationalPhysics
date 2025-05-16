@@ -62,7 +62,7 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
         - Secant and Newton-Raphson method
     - Lecture 2 [[pdf](slides/Lecture7-NonlinearEquations-2.pdf), [pptx](slides/Lecture7-NonlinearEquations-2.pptx) (for animations)]
         - Roots of a polynomial (Code ([ipynb](code/5_NonlinearEquations/5b_PolynomialRoots.ipynb))
-        - Multi-dimenstional Newton and Broyden methods (Code ([ipynb](code/5_NonlinearEquations/5c_NonlinearEquationsMulti.ipynb))
+        - Multi-dimensional Newton and Broyden methods (Code ([ipynb](code/5_NonlinearEquations/5c_NonlinearEquationsMulti.ipynb))
         - Search for extrema (minimum/maximum) (Code ([ipynb](code/5_NonlinearEquations/5d_SearchForExtrema.ipynb))
 
 6. Numerical integration
