@@ -1,3 +1,4 @@
+# This file is an output from Thermal-FIST calculation of ideal HRG equation of state
          T[MeV]          p/T^4          e/T^4          s/T^3          chi2B          chi4B    chi4B/chi2B
             100       0.266627        1.19477         1.4614     0.00264367     0.00264342       0.999905
             101        0.27061        1.21764        1.48825     0.00290617     0.00290587       0.999897
