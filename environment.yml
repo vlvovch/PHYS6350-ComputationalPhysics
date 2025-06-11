@@ -1,0 +1,26 @@
+name: CompPhys
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - imageio=2.37.0
+  - ipykernel=6.29.5
+  - ipython=8.30.0
+  - jax=0.4.35
+  - matplotlib=3.10.0
+  - notebook=7.3.2
+  - numpy=2.2.2
+  - pandas=2.2.3
+  - pip=25.0
+  - python=3.10.13
+  - scipy=1.15.1
+  - seaborn=0.13.2
+  - sympy=1.13.3
+  - tabulate=0.9.0
+  - vpython=7.6.5
+  - yaml=0.2.5
+  - zlib=1.2.13
+  - zstd=1.5.6
+  - pip:
+      - ipympl==0.9.7
+      - mygrad==2.3.0
