@@ -91,3 +91,8 @@ book/*/*.pyc
 # pycache
 __pycache__
 __pycache__/*
+
+# Secrets
+.env.local
+book/_config_secret.yml
+book/_static/umami.js

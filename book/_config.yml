@@ -65,7 +65,7 @@ html:
   analytics:
     plausible_analytics_domain : ""
     plausible_analytics_url    : ""
-    google_analytics_id        : "UA-61731056-6"  # A GA id that can be used to track book views.
+    google_analytics_id        : ""  # A GA id that can be used to track book views.
 
 
   comments:
@@ -99,8 +99,12 @@ repository:
   path_to_book: book  # Optional path to your book, relative to the repository root
   branch: jupyter-book  # Which branch of the repository should be used when creating links (optional)
 
-# # Add GitHub buttons to your book
-# # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
-# html:
 #   use_issues_button: true
 #   use_repository_button: true
+
+#######################################################################################
+# Sphinx-specific settings
+sphinx:
+  config:
+    html_js_files:
+      - umami.js

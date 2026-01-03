@@ -1,0 +1,8 @@
+// function to inject umami tracker
+(function () {
+  const script = document.createElement("script");
+  script.defer = true;
+  script.src = "__UMAMI_SCRIPT_URL__";
+  script.setAttribute("data-website-id", "__UMAMI_WEBSITE_ID__");
+  document.head.appendChild(script);
+})();
