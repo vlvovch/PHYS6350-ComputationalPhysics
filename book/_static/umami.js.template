@@ -1,4 +1,4 @@
-// function to inject umami tracker
+// function to inject umami credentials
 (function () {
   const script = document.createElement("script");
   script.defer = true;
