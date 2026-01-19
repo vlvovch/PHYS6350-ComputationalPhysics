@@ -23,8 +23,11 @@ def main():
     ga_id = env.get('GOOGLE_ANALYTICS_ID', '')
     umami_url = env.get('UMAMI_SCRIPT_URL', '')
     umami_id = env.get('UMAMI_WEBSITE_ID', '')
+    plausible_url = env.get('PLAUSIBLE_SCRIPT_URL', '')
+    swetrix_pid = env.get('SWETRIX_PROJECT_ID', '')
+    swetrix_api = env.get('SWETRIX_API_URL', '')
 
-    print(f"Injecting credentials: GA_ID={ga_id}, UMAMI_URL={umami_url}")
+    print(f"Injecting credentials: GA_ID={ga_id}, UMAMI_URL={umami_url}, PLAUSIBLE_URL={plausible_url}, SWETRIX_PID={swetrix_pid}")
 
     # 1. Generate umami.js
     template_path = os.path.join(base_dir, 'book', '_static', 'umami.js.template')
@@ -41,6 +44,34 @@ def main():
     
     print(f"Generated {output_js_path}")
 
+    # 1b. Generate plausible.js
+    template_path_plausible = os.path.join(base_dir, 'book', '_static', 'plausible.js.template')
+    output_js_path_plausible = os.path.join(base_dir, 'book', '_static', 'plausible.js')
+
+    if os.path.exists(template_path_plausible):
+        with open(template_path_plausible, 'r') as f:
+            js_content_plausible = f.read()
+        
+        js_content_plausible = js_content_plausible.replace('__PLAUSIBLE_SCRIPT_URL__', plausible_url)
+
+        with open(output_js_path_plausible, 'w') as f:
+            f.write(js_content_plausible)
+        
+        print(f"Generated {output_js_path_plausible}")
+
+    # 1c. Generate swetrix html content
+    template_path_swetrix = os.path.join(base_dir, 'book', '_static', 'swetrix.html.template')
+    swetrix_html = ""
+    if os.path.exists(template_path_swetrix):
+        with open(template_path_swetrix, 'r') as f:
+            swetrix_html = f.read()
+        
+        swetrix_html = swetrix_html.replace('__SWETRIX_PROJECT_ID__', swetrix_pid)
+        swetrix_html = swetrix_html.replace('__SWETRIX_API_URL__', swetrix_api)
+        
+        # Indent for YAML inclusion (4 spaces as per _config.yml)
+        swetrix_html = "\n".join(["    " + line if line.strip() else line for line in swetrix_html.split("\n")])
+
     # 2. Generate _config_secret.yml
     config_path = os.path.join(base_dir, 'book', '_config.yml')
     secret_config_path = os.path.join(base_dir, 'book', '_config_secret.yml')
@@ -48,9 +79,9 @@ def main():
     with open(config_path, 'r') as f:
         config_content = f.read()
 
-    # Replace the empty placeholder or specific key
-    # We look for: google_analytics_id        : ""
+    # Replace placeholders
     config_content = config_content.replace('google_analytics_id        : ""', f'google_analytics_id        : "{ga_id}"')
+    config_content = config_content.replace('__SWETRIX_CONTENT__', swetrix_html)
 
     with open(secret_config_path, 'w') as f:
         f.write(config_content)

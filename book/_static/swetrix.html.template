@@ -1,0 +1,17 @@
+<script src="https://swetrix.org/swetrix.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    swetrix.init('__SWETRIX_PROJECT_ID__', {
+      apiURL: '__SWETRIX_API_URL__',
+    })
+    swetrix.trackViews()
+  })
+</script>
+
+<noscript>
+  <img
+    src="__SWETRIX_API_URL__/noscript?pid=__SWETRIX_PROJECT_ID__"
+    alt=""
+    referrerpolicy="no-referrer-when-downgrade"
+  />
+</noscript>
