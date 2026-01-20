@@ -95,18 +95,18 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
         - Comet motion, SIR model
         - Boundary value problems and the shooting method
 
-9. Classical mechanics problems [Lecture ([pdf](slides/Lecture13-ClassicalMechanicsProblems.pdf), [pptx](slides/Lecture13-ClassicalMechanicsProblems.pptx)), Code ([ipynb](code/8_OrdinaryDifferentialEquations/8b_ClassicalMechanics.ipynb))]
-    - Three-body problem
-    - Non-linear pendulum
-    - Double pendulum and chaotic motion (simulation + animation code)
+    - Classical mechanics problems [Lecture ([pdf](slides/Lecture13-ClassicalMechanicsProblems.pdf), [pptx](slides/Lecture13-ClassicalMechanicsProblems.pptx)), Code ([ipynb](code/8_OrdinaryDifferentialEquations/8b_ClassicalMechanics.ipynb))]
+        - Three-body problem
+        - Non-linear pendulum
+        - Double pendulum and chaotic motion (simulation + animation code)
 
-10. Molecular dynamics [Lecture ([pdf](slides/Lecture14-MolecularDynamics.pdf), [pptx](slides/Lecture14-MolecularDynamics.pptx)), Code ([ipynb](code/9_MolecularDynamics/9_MolecularDynamics.ipynb))]
+9. Molecular dynamics [Lecture ([pdf](slides/Lecture14-MolecularDynamics.pdf), [pptx](slides/Lecture14-MolecularDynamics.pptx)), Code ([ipynb](code/9_MolecularDynamics/9_MolecularDynamics.ipynb))]
     - Classical N-body problem
     - Lennard-Jones fluid
     - Equilibration and thermodynamics
 
 
-11. Partial differential equations (PDE)
+10. Partial differential equations (PDE)
     - Lecture 1 [[pdf](slides/Lecture15-PartialDifferentialEquations.pdf), [pptx](slides/Lecture15-PartialDifferentialEquations.pptx), Code ([ipynb](code/10_PDE/10_PDE.ipynb))]
         - Boundary value problems
         - Finite difference method
@@ -117,7 +117,7 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
         - Heat equation 
         - Wave equation
 
-12. Random numbers and Monte Carlo methods
+11. Random numbers and Monte Carlo methods
     - Lecture 1 [[pdf](slides/Lecture17-RandomNumbers.pdf), [pptx](slides/Lecture17-RandomNumbers.pptx), Code ([ipynb](code/11_RandomNumbers/11_RandomNumbers.ipynb))]
         - Pseudo-random number generators
         - Computing integrals
@@ -130,7 +130,7 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
         - Multi-dimensional integrals
         - Importance sampling
 
-13. Statistical physics problems
+12. Statistical physics problems
     - Lecture 1 [[pdf](slides/Lecture19-StatisticalPhysics.pdf), [pptx](slides/Lecture19-StatisticalPhysics.pptx), Code ([ipynb](code/12_StatisticalPhysics/12_StatisticalPhysics.ipynb))]
         - Markov Chain Monte Carlo (MCMC)
         - Metropolis-Hastings algorithm
@@ -139,14 +139,14 @@ Code ([ipynb](code/2_FloatingPointPrecision/2_FloatingPointPrecision.ipynb))]
         - Simulated annealing
         - Percolation threshold simulation
 
-14. Quantum mechanics [Lecture ([pdf](slides/Lecture21-QuantumMechanics.pdf), [pptx](slides/Lecture21-QuantumMechanics.pptx)), Code ([ipynb](code/13_QuantumMechanics/13_QuantumMechanics.ipynb))]
+13. Quantum mechanics [Lecture ([pdf](slides/Lecture21-QuantumMechanics.pdf), [pptx](slides/Lecture21-QuantumMechanics.pptx)), Code ([ipynb](code/13_QuantumMechanics/13_QuantumMechanics.ipynb))]
     - Matrix method for eigenenergies and eigenstates
     - Time-dependent Schroedinger equation
     - Variational method
 
-15. Fourier transform [Lecture ([pdf](slides/Lecture22-Fourier.pdf)), Code ([ipynb](code/14_FFT/14_FFT.ipynb))]
+14. Fourier transform [Lecture ([pdf](slides/Lecture22-Fourier.pdf)), Code ([ipynb](code/14_FFT/14_FFT.ipynb))]
     - Discrete Fourier Transform
     - Fast Fourier Transform
 
-16. Introduction to Machine Learning
+15. Introduction to Machine Learning
     [[pdf](slides/SpecialLecture-MLIntro.pdf), [pptx](slides/SpecialLecture-MLIntro.pptx)]
